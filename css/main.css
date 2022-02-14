@@ -1,0 +1,52 @@
+@import url('./footer.css');
+@import url('./colors.css');
+@import url('./routes/categories.css');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primary-container {
+    margin: 0;
+}
+
+/* Navigation bar */
+.nav-main {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav-main-ul {
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+}
+
+.nav-main-right {
+    display: flex;
+}
+
+.nav-main-li {
+    margin: auto 1rem;
+}
+
+/* Navigation bar ends */
+
+.quiz-home {
+    height: calc(100vh - 10rem);
+}
+
+.quiz-body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quiz-body-subhead {
+    text-align: center;
+}
