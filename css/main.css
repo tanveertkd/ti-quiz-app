@@ -53,11 +53,24 @@
     border: 1px solid var(--color-button-solid-success);
 }
 
-/* Quiz screen */
+.rule-body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 10rem);
+}
+
+.rule-list-ol {
+    margin: 1rem;
+    padding: 1rem;
+}
 
 .rule {
     line-height: 1.8rem;
 }
+
+/* Quiz screen */
 
 .quiz-link {
     color: var(--color-red);
