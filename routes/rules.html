@@ -1,66 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TI | Quizzes</title>
+    <title>TI | Rules</title>
 
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
     <!--TI-UI stylesheet-->
     <link rel="stylesheet" href="https://ti-ui.netlify.app/css/components.css" />
-    <!-- <link rel="stylesheet" href="../../Macro-Projects/component-lib-ti/css/all.css"> -->
-    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="../../../Macro-Projects/component-lib-ti/css/all.css"> -->
+    <link rel="stylesheet" href="../css/main.css">
 </head>
-
 <body>
     <div class="primary-container">
         <!-- Primary Navigation -->
+        
         <nav class="nav-main">
             <!-- Nav left -->
             <ul class="nav-main-left nav-main-ul">
                 <li class="nav-main-li">
-                    <a href="./index.html" class="nav-main-item">TI</a>
+                    <a href="../index.html" class="nav-main-item">TI</a>
                 </li>
             </ul>
 
             <!-- Nav right -->
             <ul class="nav-main-right nav-main-ul">
                 <li class="nav-main-li">
-                    <a href="./routes/login.html" class="nav-main-item nav-btn-login">Login</a>
+                    <a href="./login.html" class="nav-main-item nav-btn-login">Login</a>
                 </li>
                 <li class="nav-main-li">
-                    <a href="./routes/categories.html" class="nav-main-item">Categories</a>
+                    <a class="nav-main-item">
+                        <a href="./categories.html">Categories</a>
+                    </a>
                 </li>
                 <li class="nav-main-li">
-                    <a href="./routes/rules.html" class="nav-main-item">Rules</a>
+                    <a href="./rules.html" class="nav-main-item">Rules</a>
                 </li>
             </ul>
         </nav>
+        
         <!-- Primary Navigation Ends -->
 
-        <!-- Quiz home body -->
+        <!-- Rule Body -->
+        <div class="rule-body">
+            <h2>Rules</h2>
 
-        <div class="quiz-body-container quiz-home">
-            <div class="quiz-body">
-                <h2 class="quiz-body-head">Welcome To Quizznos!</h2>
+            <ol class="rule-list-ol">
+                <li class="rule">
+                    There are a total of five questions in each quiz.
+                </li>
+                <li class="rule">
+                    There is a 5 minute time limit for the entire quiz and a 1 minute limit per question.
+                </li>
+                <li class="rule">
+                    You can only attempt a question once. The options will be disabled once you selected one of them.
+                </li>
+                <li class="rule">
+                    Each correct answer will award you with one point. There is no negative marking for wrong answers.
+                </li>
+            </ol>
 
-                <h3 class="quiz-body-subhead">Check you from a wide range of quizzes to test youself with!</h3>
-
-                <a href="./routes/categories.html" class="btn-home-cta btn btn-success-solid">Quizzes! &#8594;</a>
-
-            </div>
-
+            <p>Take a <a href="./categories.html"><span class="quiz-link">quiz!</span></a> Have fun!</p>
         </div>
+        
 
-        <!-- Quiz home body ends  -->
+        <!-- Rule Body Ends -->
 
         <!-- Footer -->
-
-        <footer class="footer">
+        <footer class="footer footer-rules">
             <ul class="footer-socials-list">
                 <li>
                     <a class="footer-links" href="https://www.github.com/tanveertkd" target="_blank"><i
@@ -81,9 +91,6 @@
                 </li>
             </ul>
         </footer>
-
-        <!-- Footer Ends-->
     </div>
 </body>
-
 </html>

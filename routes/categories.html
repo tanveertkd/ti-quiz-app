@@ -11,7 +11,7 @@
 
     <!--TI-UI stylesheet-->
     <link rel="stylesheet" href="https://ti-ui.netlify.app/css/components.css" />
-    
+    <!-- <link rel="stylesheet" href="../../../Macro-Projects/component-lib-ti/css/all.css"> -->
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
@@ -25,15 +25,29 @@
                 </li>
             </ul>
 
+            <!-- Nav middle -->
+            <ul class="nav-main-middle nav-main-ul">
+                <li class="nav-main-li">
+                    <label for="nav-main-search" class="nav-item-search">
+                        <i class="fa-solid fa-magnifying-glass nav-main-middle-icn"></i>
+                        <input class="nav-item-search-input" type="text" placeholder="Looking for a quiz?"
+                            name="nav-search" />
+                    </label>
+                </li>
+            </ul>
+
             <!-- Nav right -->
             <ul class="nav-main-right nav-main-ul">
                 <li class="nav-main-li">
                     <a href="./routes/login.html" class="nav-main-item nav-btn-login">Login</a>
                 </li>
                 <li class="nav-main-li">
-                    <a href="./routes/cart.html" class="nav-main-item">
+                    <a class="nav-main-item">
                         <a href="./categories.html">Categories</a>
                     </a>
+                </li>
+                <li class="nav-main-li">
+                    <a href="./rules.html" class="nav-main-item">Rules</a>
                 </li>
             </ul>
         </nav>
@@ -55,7 +69,7 @@
                             <p class="quiz-brief">Brief about the quiz</p>
                         </div>
                         <div class="quiz-cta-container">
-                            <a href="#" class="quiz-cta btn btn-default-outlined">Take the quiz!</a>
+                            <a href="../routes/quizzes/quiz-one/index.html" class="quiz-cta btn btn-default-outlined">Take the quiz!</a>
                         </div>
                     </div>
 
@@ -66,7 +80,7 @@
                             <p class="quiz-brief">Brief about the quiz</p>
                         </div>
                         <div class="quiz-cta-container">
-                            <a href="#" class="quiz-cta btn btn-default-outlined">Take the quiz!</a>
+                            <a href="../routes/quizzes/quiz-one/index.html" class="quiz-cta btn btn-default-outlined">Take the quiz!</a>
                         </div>
                     </div>
 
@@ -77,7 +91,7 @@
                             <p class="quiz-brief">Brief about the quiz</p>
                         </div>
                         <div class="quiz-cta-container">
-                            <a href="#" class="quiz-cta btn btn-default-outlined">Take the quiz!</a>
+                            <a href="../routes/quizzes/quiz-one/index.html" class="quiz-cta btn btn-default-outlined">Take the quiz!</a>
                         </div>
                     </div>
 
@@ -88,7 +102,7 @@
                             <p class="quiz-brief">Brief about the quiz</p>
                         </div>
                         <div class="quiz-cta-container">
-                            <a href="#" class="quiz-cta btn btn-default-outlined">Take the quiz!</a>
+                            <a href="../routes/quizzes/quiz-one/index.html" class="quiz-cta btn btn-default-outlined">Take the quiz!</a>
                         </div>
                     </div>
 
@@ -99,7 +113,7 @@
                             <p class="quiz-brief">Brief about the quiz</p>
                         </div>
                         <div class="quiz-cta-container">
-                            <a href="#" class="quiz-cta btn btn-default-outlined">Take the quiz!</a>
+                            <a href="../routes/quizzes/quiz-one/index.html" class="quiz-cta btn btn-default-outlined">Take the quiz!</a>
                         </div>
                     </div>
                 </div>
@@ -109,23 +123,31 @@
 
         <!-- Quiz home body ends  -->
 
+        <!-- Footer -->
+
         <footer class="footer">
             <ul class="footer-socials-list">
                 <li>
-                    <a class="footer-links" href="https://www.github.com/tanveertkd" target="_blank"><i class="fab fa-github fa-lg social-icn"></i></a>
+                    <a class="footer-links" href="https://www.github.com/tanveertkd" target="_blank"><i
+                            class="fab fa-github fa-lg social-icn"></i></a>
                 </li>
                 <li>
-                    <a class="footer-links" href="https://www.linkedin.com/in/tanveer-hazarika/" target="_blank"><i class="fab fa-linkedin fa-lg social-icn"></i></a>
+                    <a class="footer-links" href="https://www.linkedin.com/in/tanveer-hazarika/" target="_blank"><i
+                            class="fab fa-linkedin fa-lg social-icn"></i></a>
                 </li>
                 <li>
-                    <a class="footer-links" href="https://twitter.com/HazarikaTanveer" target="_blank"><i class="fab fa-twitter fa-lg social-icn"></i></a>
+                    <a class="footer-links" href="https://twitter.com/HazarikaTanveer" target="_blank"><i
+                            class="fab fa-twitter fa-lg social-icn"></i></a>
                 </li>
-    
+
                 <li>
-                    <a class="footer-links" href="https://tanveerswebsite.netlify.app/" target="_blank"><i class="fas fa-globe fa-lg social-icn"></i></a>
+                    <a class="footer-links" href="https://tanveerswebsite.netlify.app/" target="_blank"><i
+                            class="fas fa-globe fa-lg social-icn"></i></a>
                 </li>
             </ul>
         </footer>
+        
+        <!-- Footer Ends-->
         
     </div>
 </body>
