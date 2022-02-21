@@ -4,6 +4,7 @@
 @import url('./routes/quiz.css');
 @import url('./reset.css');
 @import url('./routes/login-signup.css');
+@import url('./user.css');
 
 .primary-container {
     margin: 0;
