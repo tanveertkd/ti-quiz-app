@@ -11,6 +11,7 @@ These are some of the screens that are ready:
 [Categories](https://ti-quiz-app.netlify.app/routes/categories.html)  
 [Quiz](https://ti-quiz-app.netlify.app/routes/quizzes/quiz-one/index.html)  
 [Login](https://ti-quiz-app.netlify.app/routes/login.html)  
+[User Profile](https://ti-quiz-app.netlify.app/routes/user.html)  
 
 These are the previews of some of the screens.
 
