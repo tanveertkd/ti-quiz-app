@@ -14,9 +14,9 @@ These are some of the screens that are ready:
 
 These are the previews of some of the screens.
 
-[Home](https://raw.githubusercontent.com/tanveertkd/ti-quiz-app/profile-documentation/assets/README/readme/1.png)    
-[Categories](https://raw.githubusercontent.com/tanveertkd/ti-quiz-app/profile-documentation/assets/README/readme/2.png)  
-[Quiz](https://raw.githubusercontent.com/tanveertkd/ti-quiz-app/profile-documentation/assets/README/readme/3.png)  
-[Login](https://raw.githubusercontent.com/tanveertkd/ti-quiz-app/profile-documentation/assets/README/readme/4.png)    
+![Home](https://raw.githubusercontent.com/tanveertkd/ti-quiz-app/profile-documentation/assets/README/readme/1.png)    
+![Categories](https://raw.githubusercontent.com/tanveertkd/ti-quiz-app/profile-documentation/assets/README/readme/2.png)  
+![Quiz](https://raw.githubusercontent.com/tanveertkd/ti-quiz-app/profile-documentation/assets/README/readme/3.png)  
+![Login](https://raw.githubusercontent.com/tanveertkd/ti-quiz-app/profile-documentation/assets/README/readme/4.png)    
 
 `This is a work in progress and more features are being added constantly.`
